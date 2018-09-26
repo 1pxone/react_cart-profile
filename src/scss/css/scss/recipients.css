@@ -1,0 +1,13 @@
+.recipient__wrapper {
+  display: flex;
+  align-items: center; }
+  .recipient__wrapper span {
+    display: block;
+    margin-right: 10px;
+    font-size: 13px; }
+
+@media (max-width: 900px) {
+  .recipient__wrapper {
+    justify-content: space-between; }
+    .recipient__wrapper span {
+      margin-right: 0; } }

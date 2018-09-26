@@ -1,0 +1,82 @@
+@import "_constants.scss";
+.deliveryType * {
+    display: block;
+    flex-basis: 50%;
+    text-align: center;
+    padding: 5px 10px;
+    cursor: pointer;
+    // &:first-child{
+    //     border-radius: $border-radius 0 0 $border-radius;
+    // }
+    // &:last-child{
+    //     border-radius: 0 $border-radius $border-radius 0;
+    // }
+    &.active{
+        // color: $color-dark;
+        // background: $color-primary;
+        background: #0a0;
+        display: block;
+        padding: 10px;
+        color: #fff!important;
+        clear: both;
+        border: none;
+        border-bottom: 2px solid #0f0;
+        margin-left: 0;
+        -webkit-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s;
+        cursor: pointer;
+        text-decoration: none!important;
+        outline: none!important;
+        text-align: center;
+    }
+    &.unactive{
+        // color: $text-default;
+        // background: $bg-primary;
+        // transition: .3s;
+        color: #fff;
+        background: #222222;
+        display: block;
+        padding: 10px;
+        clear: both;
+        border: none;
+        border-bottom: 2px solid #393939;
+        margin-left: 0;
+        -webkit-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s;
+        cursor: pointer;
+        text-decoration: none !important;
+        outline: none !important;
+        text-align: center;
+        &:hover{
+            background: #000;
+        }
+    }
+    font-size: $fs-small;
+}
+.delivery__heading {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.deliveryType {
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 991px){
+    .delivery__heading {
+        display: block;
+        & span{
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+    }
+    .deliveryType {
+        margin-bottom: 10px;
+    }
+
+}
+.addressesWrapper , .deliveryMethodsWrapper{
+    margin-bottom: $margin;
+}

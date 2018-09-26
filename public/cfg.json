@@ -1,0 +1,69 @@
+{
+    "rootPath": "/account",
+    "cartRootPath": "/cart",
+    "title": "Личный кабинет",
+    "containerClass":"container",
+    "navClass":"col-12 col-md-3 mb-3",
+    "usericon": {
+        "classname": "userIcon--icon top-menu__profile-icon"
+    },
+    "carticon": {
+        "classname": "cartIcon--icon top-menu__cart-icon"
+    },
+    "privacyPolicyLink": "https://www.razer.ru/private/",
+    "termsAndConditionsLink": "https://www.razer.ru/copyright/",
+    "defaultProductImage": "https://www.razer.ru/razer-logo-og.png",
+    "selfDeliveryMethodIds": ["iml", "iml-free"],
+    "modules": [
+        {
+            "name": "Dashboard",
+            "title": "Панель управления",
+            "path": "",
+            "component": "Dashboard"
+        },
+        {
+            "name": "Orders",
+            "title": "Заказы",
+            "path": "/orders",
+            "component": "Orders"
+        },
+        {
+            "name": "Profile settings",
+            "title": "Настройки",
+            "path": "/settings",
+            "component": "Profile"
+        },
+        {
+            "name": "Addresses",
+            "title": "Адреса доставок",
+            "path": "/addresses",
+            "component": "Addresses"
+        }
+    ],
+    "dashboard": [
+        {
+            "name": "Profile",
+            "title": "Аккаунт",
+            "component": "ProfileDash",
+            "className": "dashBlock col-12 mb-3"
+        },
+        {
+            "name": "Subscribe",
+            "title": "Подписка на новости",
+            "component": "SubscribeDash",
+            "className": "dashBlock col-12 mb-3"
+        },
+        {
+            "name": "Orders",
+            "title": "Заказы",
+            "component": "OrdersDash",
+            "className": "dashBlock col-12 mb-3"
+        },
+        {
+            "name": "Addresses",
+            "title": "Адреса доставок",
+            "component": "AddressesDash",
+            "className": "dashBlock col-12 mb-3"
+        }
+    ]
+}

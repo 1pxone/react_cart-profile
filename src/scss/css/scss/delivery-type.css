@@ -1,0 +1,62 @@
+.deliveryType * {
+  display: block;
+  flex-basis: 50%;
+  text-align: center;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 13px; }
+  .deliveryType *.active {
+    background: #0a0;
+    display: block;
+    padding: 10px;
+    color: #fff !important;
+    clear: both;
+    border: none;
+    border-bottom: 2px solid #0f0;
+    margin-left: 0;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    cursor: pointer;
+    text-decoration: none !important;
+    outline: none !important;
+    text-align: center; }
+  .deliveryType *.unactive {
+    color: #fff;
+    background: #222222;
+    display: block;
+    padding: 10px;
+    clear: both;
+    border: none;
+    border-bottom: 2px solid #393939;
+    margin-left: 0;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    cursor: pointer;
+    text-decoration: none !important;
+    outline: none !important;
+    text-align: center; }
+    .deliveryType *.unactive:hover {
+      background: #000; }
+
+.delivery__heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between; }
+
+.deliveryType {
+  display: flex;
+  justify-content: space-between; }
+
+@media (max-width: 991px) {
+  .delivery__heading {
+    display: block; }
+    .delivery__heading span {
+      margin-right: 10px;
+      margin-bottom: 10px; }
+  .deliveryType {
+    margin-bottom: 10px; } }
+
+.addressesWrapper, .deliveryMethodsWrapper {
+  margin-bottom: 10px; }

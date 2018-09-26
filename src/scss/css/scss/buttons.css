@@ -1,0 +1,190 @@
+.r-btn-default {
+  background: #0a0;
+  display: block;
+  padding: 10px;
+  color: #fff !important;
+  clear: both;
+  border: none;
+  border-left: 2px solid #0f0;
+  margin-left: 0;
+  transition: .3s;
+  cursor: pointer;
+  text-decoration: none !important;
+  outline: none !important;
+  text-align: center; }
+  .r-btn-default:hover {
+    background: #000; }
+  .r-btn-default--disabled {
+    opacity: 0.5;
+    cursor: not-allowed; }
+
+.r-btn-edit {
+  color: #d0d0d0;
+  font-size: 13px;
+  background: none;
+  border: none;
+  border-bottom: 1px dotted #d0d0d0;
+  outline: none !important;
+  cursor: pointer;
+  transition: .3s;
+  text-decoration: none !important;
+  text-align: center;
+  line-height: 1.2;
+  padding: 0; }
+  .r-btn-edit:hover {
+    color: #ffffff; }
+
+.r-btn-secondary {
+  padding: 0;
+  line-height: 1;
+  background: none;
+  border: none;
+  color: #d0d0d0 !important;
+  outline: none !important;
+  cursor: pointer;
+  transition: .3s;
+  text-decoration: none !important;
+  text-align: center; }
+  .r-btn-secondary:hover {
+    opacity: 0.8; }
+
+.w-full {
+  width: 100%; }
+
+.fs-small {
+  font-size: 13px; }
+
+.cart-step__nextbtn-wrapper a {
+  background: #44d62c;
+  color: #ffffff;
+  display: block;
+  border-radius: 0.25rem;
+  padding: 5px; }
+  .cart-step__nextbtn-wrapper a:hover {
+    color: #ffffff; }
+
+.cart-step__nextbtn-wrapper {
+  margin-top: 10px;
+  text-align: center;
+  width: 100%; }
+
+.process-order {
+  background: #44d62c;
+  color: #000000;
+  display: block;
+  border-radius: 0.25rem;
+  border: none;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none !important;
+  transition: .3s;
+  outline: none !important; }
+  .process-order:hover {
+    opacity: 0.8;
+    color: #000000; }
+
+.process-order__wrapper {
+  margin-top: 10px; }
+
+.process-order--blockers span {
+  font-size: 13px;
+  color: #ffffff;
+  background: #cb0000;
+  display: block;
+  padding: 5px;
+  border-radius: 3px;
+  margin-bottom: 5px !important; }
+
+.process-order.process-order--disabled {
+  opacity: 0.5; }
+
+.change__button {
+  color: #d0d0d0;
+  font-size: 13px;
+  border: none;
+  border-bottom: 1px dotted #d0d0d0;
+  transition: .3s;
+  cursor: pointer;
+  background: none;
+  text-decoration: none !important;
+  outline: none !important; }
+  .change__button:hover {
+    color: #ffffff; }
+
+.otherAddresses__button {
+  background: none;
+  border-radius: 3px;
+  border: none;
+  width: 100%;
+  color: #44d62c;
+  font-size: 13px;
+  outline: none !important;
+  cursor: pointer;
+  transition: .3s; }
+  .otherAddresses__button:hover {
+    opacity: 0.8; }
+
+.socialAuth__buttons a.socialAuth__button {
+  color: #ffffff;
+  padding: 5px;
+  margin-bottom: 5px;
+  text-decoration: none !important;
+  transition: .3s;
+  max-width: 250px;
+  display: flex;
+  align-items: center;
+  border-radius: 0.25rem;
+  outline: none !important; }
+  .socialAuth__buttons a.socialAuth__button--vk {
+    background: #4a76a8; }
+  .socialAuth__buttons a.socialAuth__button--fb {
+    background: #4267b2; }
+  .socialAuth__buttons a.socialAuth__button--gp {
+    background: #ffffff;
+    color: black; }
+  .socialAuth__buttons a.socialAuth__button:hover {
+    opacity: 0.8; }
+  .socialAuth__buttons a.socialAuth__button img {
+    width: 25px; }
+
+.socialAuth__buttons--small {
+  display: flex;
+  justify-content: space-around; }
+  .socialAuth__buttons--small a.socialAuth__button {
+    color: #ffffff;
+    padding: 5px;
+    text-decoration: none !important;
+    transition: .3s;
+    flex-grow: 1;
+    text-align: center;
+    align-items: center;
+    border-radius: 0.25rem;
+    outline: none !important; }
+    .socialAuth__buttons--small a.socialAuth__button--vk {
+      background: #4a76a8; }
+    .socialAuth__buttons--small a.socialAuth__button--fb {
+      background: #4267b2; }
+    .socialAuth__buttons--small a.socialAuth__button--gp {
+      background: #ffffff; }
+    .socialAuth__buttons--small a.socialAuth__button:hover {
+      opacity: 0.8; }
+    .socialAuth__buttons--small a.socialAuth__button img {
+      width: 25px; }
+    .socialAuth__buttons--small a.socialAuth__button:not(:last-child) {
+      margin-right: 10px; }
+
+span.socialAuth__text {
+  margin-left: 10px;
+  font-size: 13px;
+  display: block;
+  width: 100%; }
+
+span.termsandconditions {
+  font-size: 13px;
+  display: block;
+  line-height: 1;
+  text-align: center;
+  color: #d0d0d0;
+  margin-top: 5px; }

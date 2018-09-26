@@ -1,0 +1,40 @@
+@import "_constants.scss";
+.r-overlay {
+    position: fixed;
+    background: #222222;
+    height: 100%;
+    z-index: 999;
+    max-width: 75%;
+}
+.r-overlay__wrapper {
+    position: relative;
+}
+.r-overlay {
+    /* padding: 15px 15px; */
+    // position: absolute;
+    // background: $bg-primary;
+    // z-index: 9999;
+    // border-radius: $border-radius;
+    // // box-shadow: $def-shadow;
+    // border: 1px solid $color-border;
+    // min-width: 255px;
+}
+.r-overlay--left {
+    left: 0;
+}
+.r-overlay--right {
+    right: 0;
+}
+.r-overlay__heading {
+    padding: 10px 10px;
+    // text-align: center;
+}
+.r-overlay__bottom {
+    padding: 10px;
+}
+.r-overlay__button{
+    background: none;
+    border: none;
+    outline: none !important;
+    cursor: pointer;
+}

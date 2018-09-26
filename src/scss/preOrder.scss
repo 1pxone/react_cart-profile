@@ -1,0 +1,30 @@
+.preOrder__wrapper {
+  position: relative;
+  display: inline-block;
+}
+.preOrder__btn {
+  position: relative;
+}
+
+.preOrder__hint {
+  position: absolute;
+  background-color: white;
+  bottom: calc(100% + 10px);
+  left: 0;
+  right: 0;
+  color: black;
+  padding: 5px;
+  transition: opacity .6s;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: left;
+  &:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: calc(50% - 10px);
+    border-width: 10px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+  }
+}
